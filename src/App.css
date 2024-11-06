@@ -1,38 +1,124 @@
 .App {
   text-align: center;
+  background-color: black;
+  background-attachment: fixed;
+  color: white;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.thanks {
+  bottom: 21vh;
+  position: relative;
+  padding-right: 42px;
+  border-right: 2px solid red;
+  width: 50vw;
+  text-align: end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.thanks-card {
+  left: 12vw;
+  top: 30vh;
+  position: relative;
+  width: 71vw;
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  height: 44vh;
+}
+.thanks-card h3{
+  border: 1px solid;
+  color: #ee1b27;
+  position: relative;
+  bottom: 22vh;
+  left: 2vw;
+  width: 19vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.thanks-card h3:hover{
+  background-color:#ee1b27 ;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-ezer {
+  top: 8vh;
+  left: 24vw;
+  position: relative;
+  height: 25vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.donat-form {
+  left: 44vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  justify-content: space-evenly;
+  position: relative;
+  width: 35vw;
+  border-left: 2px solid red;
+}
+
+.donat-title {
+  text-align: end;
+  right: 5vw;
+  top: 34vh;
+  position: relative;
+  right: 60vw;
+}
+
+.op-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.op-card {
+  border-bottom: 1px solid red;
+  /* height: 34vh; */
+  /* border-right: 1px solid red; */
+  /* padding-right: 25px; */
+}
+
+.op-card:hover{
+  opacity: 50%;
+}
+
+.op-card img, .don-cent-div img {
+  position: relative;
+  bottom: 2vh;
+  height: 20vh
+}
+
+.op-card h3 {
+  background-color: #0000008f;
+  position: relative;
+  top: 8vh;
+  z-index: 1;
+}
+
+.don-cent{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.don-cent-div{
+  margin: 9px;
+  height: 46vh;
+  border: 2px solid;
+  width: 26vw;
+
+}
+
+.don-cent-div:hover{
+  border: 3px double red;
+  color: #ee1b27;
+}
+
+.don-cent-title{
+  padding-left: 13px;
+    text-align: start;
+    border-left: 3px solid #da3d3e;
+    top: 58vh;
+    left: 69vw;
+    position: absolute;
+    width: fit-content;
 }
