@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 export default function HomePage() {
 
     const [options, setOptions] = useState([
-        { id: 1, title: "מעבר לתרומה", img: "/truma.jpg", route: "/donatForm" },
+        { id: 1, title:"לתרומות", img: "/truma.jpg", route: "/donatForm" },
         { id: 2, title: "רשימת מוקדי תרומות", img: "/lev.webp", route: "/donCenters" },
         { id: 3, title: "צור קשר", img: "/contact.jpg", route: "/" }
     ]);
